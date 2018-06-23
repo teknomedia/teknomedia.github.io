@@ -49,7 +49,7 @@
     "author": {
         "@type": "Person",
         "name": "Ghost",
-        "url": "http://localhost:2368/author/ghost/",
+        "url": "http://localhost:2368/404/",
         "sameAs": []
     },
     "headline": "Organising your content with tags",
@@ -95,6 +95,8 @@ ghost.init({
                 <a class="site-nav-logo" href="../"><img src="https://casper.ghost.org/v1.0.0/images/ghost-logo.svg" alt="VideoTron Specialist"></a>
             <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="../">Home</a></li>
+    <li class="nav-request-penawaran" role="menuitem"><a href="../req-quotation/">Request Penawaran</a></li>
+    <li class="nav-spasi-iklan-videotron" role="menuitem"><a href="../sewa-spasi-iklan-videotron/">Spasi Iklan Videotron</a></li>
 </ul>
 
     </div>
@@ -163,17 +165,42 @@ ghost.init({
         <span class="avatar-wrapper"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"></path></g></svg>
 </span>
     <section class="author-card-content">
-        <h4 class="author-card-name"><a href="../author/ghost/">Ghost</a></h4>
+        <h4 class="author-card-name"><a href="http://localhost:2368/404/">Ghost</a></h4>
             <p>You can delete this user to remove all the welcome posts</p>
     </section>
 </section>
 <div class="post-full-footer-right">
-    <a class="author-card-button" href="../author/ghost/">Read More</a>
+    <a class="author-card-button" href="http://localhost:2368/404/">Read More</a>
 </div>
 
 
             </footer>
 
+            
+            <section class="post-full-comments">
+                <div id="disqus_thread"></div>
+                    <script>
+
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://videotron.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                                
+            </section>
+            
 
         </article>
 
@@ -183,7 +210,7 @@ ghost.init({
 <aside class="read-next outer">
     <div class="inner">
         <div class="read-next-feed">
-                <article class="read-next-card" style="background-image: url(https://casper.ghost.org/v1.0.0/images/blog-cover.jpg)">
+                <article class="read-next-card" style="background-image: url(../content/images/2018/06/sun_set_maldives.jpg)">
                     <header class="read-next-card-header">
                         <small class="read-next-card-header-sitetitle">— VideoTron Specialist —</small>
                         <h3 class="read-next-card-header-title"><a href="../tag/getting-started/">Getting Started</a></h3>
@@ -192,13 +219,13 @@ ghost.init({
 </div>
                     <div class="read-next-card-content">
                         <ul>
-                            <li><a href="../welcome/">Spesialis Videotron Di KTI</a></li>
                             <li><a href="../the-editor/">Using the Ghost editor</a></li>
                             <li><a href="../managing-users/">Managing Ghost users</a></li>
+                            <li><a href="../private-sites/">Making your site private</a></li>
                         </ul>
                     </div>
                     <footer class="read-next-card-footer">
-                        <a href="../tag/getting-started/">See all 6 posts →</a>
+                        <a href="../tag/getting-started/">See all 5 posts →</a>
                     </footer>
                 </article>
 
@@ -225,7 +252,7 @@ ghost.init({
                         Ghost
                     </div>
 
-                        <a href="../author/ghost/" class="static-avatar author-profile-image"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"></path></g></svg>
+                        <a href="http://localhost:2368/404/" class="static-avatar author-profile-image"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"></path></g></svg>
 </a>
                 </li>
             </ul>
@@ -259,7 +286,7 @@ ghost.init({
                         Ghost
                     </div>
 
-                        <a href="../author/ghost/" class="static-avatar author-profile-image"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"></path></g></svg>
+                        <a href="http://localhost:2368/404/" class="static-avatar author-profile-image"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"></path></g></svg>
 </a>
                 </li>
             </ul>
@@ -324,7 +351,8 @@ ghost.init({
     <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=61c1714dbf"></script>
 
 
-    <script>
+    <script id="dsq-count-scr" src="http://videotron.disqus.com/count.js" async></script>
+<script>
 
 // NOTE: Scroll performance is poor in Safari
 // - this appears to be due to the events firing much more slowly in Safari.
